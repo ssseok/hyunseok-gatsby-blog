@@ -44,7 +44,7 @@ const BuyMeACoffee: React.FC = () => {
               <S.Content>
                 <S.List>
                   <div>⓵ 토스 익명송금</div>
-                  <a href='https://toss.me/danmin'>toss.me/danmin</a>
+                  <a href='https://toss.me/ssseok'>toss.me/ssseok</a>
                 </S.List>
                 <S.List>
                   <div>② 송금 QR</div>

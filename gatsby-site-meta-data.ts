@@ -2,10 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `jeong-min.com`,
-  description: `개발자 단민`,
+  title: `hyun-seok.com`,
+  description: `개발자 석이`,
   language: `ko`,
-  siteUrl: `https://jeong-min.com/`,
+  siteUrl: `https://hyun-seok.com/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
 
   /**
@@ -13,7 +13,7 @@ export default {
    */
   comments: {
     utterances: {
-      repo: ``, //`danmin20/danmin-gatsby-blog`,
+      repo: `ssseok/hyunseok-gatsby-blog`, //`danmin20/danmin-gatsby-blog`,
     },
   },
 
@@ -21,22 +21,22 @@ export default {
    * introduce yourself
    */
   author: {
-    name: `이정민`,
-    nickname: `단민`,
+    name: `박현석`,
+    nickname: `석이`,
     stack: ['Frontend', 'React', 'Typescript'],
     bio: {
-      email: `ljm991108@gmail.com`,
+      email: `luckseok1@gmail.com`,
       residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      // bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
     },
     social: {
-      github: `https://github.com/danmin20`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      github: `https://github.com/ssseok`,
+      linkedIn: `https://www.linkedin.com/in/%ED%98%84%EC%84%9D-%EB%B0%95-a9179a243/`,
+      resume: `https://docs.google.com/document/d/1RaFKfZ_nh5dd_-19pQ4yolYMSTvn8qMnZ9MML5vNhYw/edit`,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: 'https://luckseok.tistory.com/',
+      velog: 'https://velog.io/@ssseok',
     },
   },
 
@@ -48,14 +48,6 @@ export default {
       title: 'Featured1',
       category: 'featured1',
     },
-    {
-      title: 'Featured2',
-      category: 'featured2',
-    },
-    {
-      title: 'Ignored Category',
-      category: 'category-ignore', // Keywords with 'ignore' are not categorized
-    },
   ],
 
   /**
@@ -64,27 +56,19 @@ export default {
   timestamps: [
     {
       category: 'Career',
-      date: '2022.01.04 - NOW',
-      en: 'A Corp.',
-      kr: 'A 회사',
-      info: 'A 팀',
-      link: '',
-    },
-    {
-      category: 'Career',
-      date: '2021.01.04 - 2022.01.04',
-      en: 'B Corp.',
-      kr: 'B 회사',
-      info: 'B 팀',
-      link: '',
+      date: '2023.05.01 - 2023.08.01',
+      en: 'Supervic',
+      kr: '슈퍼빅 (인턴)',
+      info: 'Web front development',
+      link: 'https://supervic.kr/',
     },
     {
       category: 'Activity',
-      date: '2023.07 - NOW',
-      en: 'Community',
-      kr: '커뮤니티',
-      info: 'IT 커뮤니티',
-      link: '',
+      date: '2022.08 - 2023.02',
+      en: 'Code States',
+      kr: '코드스테이츠',
+      info: 'Software Engineering Bootcamp Frontend 41기',
+      link: 'https://www.codestates.com/',
     },
   ],
 
@@ -93,14 +77,14 @@ export default {
    */
   projects: [
     {
-      title: 'Portfolio',
-      description: '포트폴리오',
-      techStack: ['React', 'Next.js', 'Typescript'],
+      title: 'Why Stay?',
+      description: '슉박 목적에 따른 분류로 안성맞춤 숙박 업체',
+      techStack: ['React', 'Redux-Toolkit', 'Styled-Components', 'React-Query'],
       thumbnailUrl: '', // Path to your in the 'assets' folder
       links: {
         post: '',
-        github: '',
-        demo: '',
+        github: 'https://github.com/ssseok/Why-Stay?tab=readme-ov-file',
+        demo: 'http://whystay.p-e.kr/',
         googlePlay: '',
         appStore: '',
       },
