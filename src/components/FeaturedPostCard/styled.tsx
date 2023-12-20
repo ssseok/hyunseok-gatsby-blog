@@ -20,9 +20,11 @@ export const PostCard = styled(Link)`
   gap: 15px;
   align-items: center;
   padding-right: 15px;
+  /* z-index: 1; */
 
   &:hover {
     background-color: ${({ theme }) => theme.color.gray10};
+    /* z-index: 0; */
     @media ${MOBILE_MEDIA_QUERY} {
       background-color: transparent;
     }
