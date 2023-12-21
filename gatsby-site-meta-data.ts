@@ -48,6 +48,10 @@ export default {
       title: 'DEV',
       category: 'Dev',
     },
+    {
+      title: 'EXPERIENCE',
+      category: 'Experience',
+    },
   ],
 
   /**
