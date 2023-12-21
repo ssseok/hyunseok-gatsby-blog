@@ -68,6 +68,14 @@ export default {
     },
     {
       category: 'Activity',
+      date: '2023.06 - NOW',
+      en: 'Nextjs.kr',
+      kr: '넥스트제이에스.코리아',
+      info: 'Next.js Korea User Group',
+      link: 'https://github.com/Nextjs-kr',
+    },
+    {
+      category: 'Activity',
       date: '2022.08 - 2023.02',
       en: 'Code States',
       kr: '코드스테이츠',
