@@ -52,20 +52,16 @@ export default {
       title: 'EXPERIENCE',
       category: 'Experience',
     },
+    {
+      title: 'PROJECT',
+      category: 'Project',
+    },
   ],
 
   /**
    * metadata for About Page
    */
   timestamps: [
-    {
-      category: 'Career',
-      date: '2023.05.01 - 2023.08.01',
-      en: 'Supervic',
-      kr: '슈퍼빅 (인턴)',
-      info: 'Web front development',
-      link: 'https://supervic.kr/',
-    },
     {
       category: 'Activity',
       date: '2023.06 - NOW',
@@ -87,19 +83,5 @@ export default {
   /**
    * metadata for Playground Page
    */
-  projects: [
-    {
-      title: 'Why Stay?',
-      description: '슉박 목적에 따른 분류로 안성맞춤 숙박 업체',
-      techStack: ['React', 'Redux-Toolkit', 'Styled-Components', 'React-Query'],
-      thumbnailUrl: '', // Path to your in the 'assets' folder
-      links: {
-        post: '',
-        github: 'https://github.com/ssseok/Why-Stay?tab=readme-ov-file',
-        demo: 'http://whystay.p-e.kr/',
-        googlePlay: '',
-        appStore: '',
-      },
-    },
-  ],
+  projects: [],
 };
