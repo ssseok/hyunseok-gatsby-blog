@@ -83,5 +83,19 @@ export default {
   /**
    * metadata for Playground Page
    */
-  projects: [],
+  projects: [
+    {
+      title: 'IntroMe',
+      description: '자기소개서를 작성할 때 필요한 여러 기능들이 합쳐진 웹서비스',
+      techStack: ['TypeScript', 'React', 'Redux', 'TailwindCSS', 'React-Query'],
+      thumbnailUrl: '', // Path to your in the 'assets' folder
+      links: {
+        post: '',
+        github: '',
+        demo: '',
+        googlePlay: '',
+        appStore: '',
+      },
+    },
+  ],
 };
